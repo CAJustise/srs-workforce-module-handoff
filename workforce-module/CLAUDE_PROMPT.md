@@ -36,6 +36,11 @@ Use the handoff pack files in this folder:
   - Task Board
   - Daily Activity Log
   - Company Holidays
+- My Time Clock behavior:
+  - Show clock-in time and worked duration in Clock Status
+  - Worked duration must subtract unpaid break time
+  - Break history must display start/end and total duration
+  - Prevent ending a break before its configured minimum duration
 - Task Board behavior:
   - Group tasks by assignee
   - Overdue open tasks = red
@@ -64,4 +69,3 @@ Return:
 2. migration steps run
 3. test case pass/fail list
 4. remaining blockers (if any)
-

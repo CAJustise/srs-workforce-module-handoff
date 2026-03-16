@@ -56,6 +56,9 @@ For production/shared environments, set:
 
 - Today dashboard:
   - My Time Clock
+  - Break controls with minimum break duration enforcement (cannot end early)
+  - Break history showing start/end and total break duration
+  - Clock Status showing clock-in time plus worked duration (net of unpaid breaks)
   - Today’s Schedule by Department
   - Weekly Schedule (this week + 3 weeks forward)
   - Task Board (grouped by assignee)
@@ -93,4 +96,3 @@ When handing to your work team, send:
 ## Suggested Branch Name
 
 `feature/cs-workforce-module`
-

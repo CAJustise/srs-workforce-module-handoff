@@ -18,6 +18,13 @@ Use this checklist as definition of done for implementation.
    - Today’s Schedule by Department times
    - Weekly Schedule times
 4. Local mode shows viewer local zone label.
+5. Clock Status shows:
+   - Clock-in time
+   - Worked duration since clock-in (net of unpaid break time)
+6. Completed breaks show:
+   - start/end time
+   - total break duration
+7. User cannot end a break before minimum break length is reached.
 
 ## C. Task Board
 
@@ -52,4 +59,3 @@ Use this checklist as definition of done for implementation.
 1. Inactive team member cannot access module pages.
 2. Non-workforce users cannot access Team Members / Log Archive.
 3. Supervisor-only controls are locked for non-supervisors.
-
